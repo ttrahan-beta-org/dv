@@ -2,7 +2,7 @@ language: none
 
 build:
   ci:
-    - export IMAGE_NAME=avinci/dv
+    - export IMAGE_NAME=ttrahan/dv
     - ./build.sh
 
   post_ci:
@@ -10,9 +10,8 @@ build:
 
 integrations:
   hub:
-    - integrationName: "dockerhub"
+    - integrationName: "Docker Hub"
       type: docker
       branches:
         only:
-          - master
-
+          - triton
