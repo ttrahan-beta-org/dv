@@ -10,4 +10,4 @@ To test this project, run multiple instances of [Box][1] on different environmen
 
 https://api.mlab.com/api/1/databases/[db]/collections/[collection]?apiKey=[key]
 
-[1]:https://github.com/aye0aye/box
+[1]: https://github.com/aye0aye/box
