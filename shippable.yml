@@ -17,7 +17,7 @@ integrations:
           - master
 
   notifications:
-    - integrationName: trigger-dv-pipeline
+    - integrationName: trigger-org-dv-pipeline
       type: webhook
       payload:
         - versionName=$BRANCH.$BUILD_NUMBER
